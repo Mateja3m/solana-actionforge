@@ -1,0 +1,17 @@
+{
+  "id": "wrong-types",
+  "description": "Wrong field types fail validation.",
+  "type": "payload",
+  "mode": "validate",
+  "payload": {
+    "title": 123,
+    "description": false,
+    "icon": "https://example.com/icon.png",
+    "links": {
+      "actions": [
+        { "label": "Go", "href": "https://example.com/go", "method": "PATCH" }
+      ]
+    }
+  },
+  "expect": { "pass": false }
+}

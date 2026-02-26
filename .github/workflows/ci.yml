@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: npm
+      - run: npm install
+      - run: npm run build
+      - run: npm test
+      - name: Start basic endpoint
+        run: |
+          node examples/basic-action-endpoint/dist/server.js &
+          sleep 2
+      - name: Run harness
+        run: |
+          npm exec -- actionforge-harness run --endpoint http://127.0.0.1:3001 --fixtures packages/harness/fixtures --out reports/actionforge-report.json

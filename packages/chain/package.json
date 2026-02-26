@@ -1,0 +1,11 @@
+{
+  "name": "@idoa/actionforge-chain",
+  "version": "0.1.0",
+  "description": "Safe-by-default state/chaining helpers for Solana Actions/Blinks",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs --dts --out-dir dist",
+    "test": "vitest run packages/chain/src"
+  }
+}

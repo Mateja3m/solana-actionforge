@@ -1,0 +1,15 @@
+{
+  "id": "valid-response",
+  "description": "Valid response payload passes schema validation.",
+  "type": "payload",
+  "mode": "validate",
+  "payload": {
+    "title": "Send SOL",
+    "description": "Transfer SOL to recipient",
+    "icon": "https://example.com/icon.png",
+    "links": {
+      "actions": [{ "label": "Send", "href": "https://example.com/send", "method": "POST" }]
+    }
+  },
+  "expect": { "pass": true }
+}

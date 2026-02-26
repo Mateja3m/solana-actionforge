@@ -1,0 +1,17 @@
+{
+  "name": "@idoa/actionforge-validator",
+  "version": "0.1.0",
+  "description": "Strict validators and lints for Solana Actions/Blinks payloads",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "bin": {
+    "actionforge-validator": "dist/bin/actionforge-validator.js"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts bin/actionforge-validator.ts --format cjs --dts --out-dir dist",
+    "test": "vitest run packages/validator/src"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
+}

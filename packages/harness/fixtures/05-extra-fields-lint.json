@@ -1,0 +1,16 @@
+{
+  "id": "extra-fields-lint",
+  "description": "Unexpected extra fields produce lint warning.",
+  "type": "payload",
+  "mode": "lint",
+  "payload": {
+    "title": "Swap",
+    "description": "Swap token",
+    "icon": "http://example.com/icon.png",
+    "links": {
+      "actions": [{ "label": "Swap", "href": "/swap", "method": "POST" }]
+    },
+    "extra": "warn"
+  },
+  "expect": { "pass": true, "minWarnings": 1 }
+}

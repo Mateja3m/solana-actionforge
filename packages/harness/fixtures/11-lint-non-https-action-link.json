@@ -1,0 +1,15 @@
+{
+  "id": "lint-non-https-action-link",
+  "description": "Non-https action link is lint warning.",
+  "type": "payload",
+  "mode": "lint",
+  "payload": {
+    "title": "Stake",
+    "description": "Stake SOL",
+    "icon": "https://example.com/icon.png",
+    "links": {
+      "actions": [{ "label": "Stake", "href": "http://example.com/stake", "method": "POST" }]
+    }
+  },
+  "expect": { "pass": true, "minWarnings": 1 }
+}

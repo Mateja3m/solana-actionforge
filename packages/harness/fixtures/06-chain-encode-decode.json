@@ -1,0 +1,13 @@
+{
+  "id": "chain-encode-decode",
+  "description": "Chain fixture verifies encode/decode/next step.",
+  "type": "chain",
+  "chain": {
+    "ttlMs": 120000,
+    "maxSteps": 5,
+    "now": 4102444800000,
+    "currentTime": 4102444800200,
+    "advanceWith": { "status": "ok" }
+  },
+  "expect": { "pass": true }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "idempotency-replay",
+  "description": "Replay simulation detects duplicate idempotency key.",
+  "type": "replay",
+  "replay": {
+    "key": "replay-key-1"
+  },
+  "expect": { "pass": true }
+}

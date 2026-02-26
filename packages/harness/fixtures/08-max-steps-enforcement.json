@@ -1,0 +1,10 @@
+{
+  "id": "max-steps-enforcement",
+  "description": "Max steps exceeded produces failure.",
+  "type": "chain",
+  "chain": {
+    "encodedState": "eyJ2ZXJzaW9uIjoxLCJpZGVtcG90ZW5jeUtleSI6ImtleS0xIiwic3RlcCI6MywibWF4U3RlcHMiOjMsImNyZWF0ZWRBdCI6MTAwMCwiZXhwaXJlc0F0Ijo5OTk5OTk5LCJoaXN0b3J5IjpbXX0",
+    "currentTime": 2000
+  },
+  "expect": { "pass": false }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "expiry-enforcement",
+  "description": "Expired chain state fails expiry enforcement.",
+  "type": "chain",
+  "chain": {
+    "ttlMs": 10,
+    "maxSteps": 5,
+    "now": 1000,
+    "currentTime": 999999
+  },
+  "expect": { "pass": false }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "invalid-schema",
+  "description": "Invalid payload shape fails schema validation.",
+  "type": "payload",
+  "mode": "validate",
+  "payload": {
+    "name": "wrong",
+    "actions": []
+  },
+  "expect": { "pass": false }
+}

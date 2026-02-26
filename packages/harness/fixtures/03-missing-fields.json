@@ -1,0 +1,10 @@
+{
+  "id": "missing-fields",
+  "description": "Missing required fields returns failure.",
+  "type": "payload",
+  "mode": "validate",
+  "payload": {
+    "title": "Only title"
+  },
+  "expect": { "pass": false }
+}

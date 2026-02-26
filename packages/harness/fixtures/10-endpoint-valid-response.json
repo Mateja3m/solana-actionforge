@@ -1,0 +1,10 @@
+{
+  "id": "endpoint-valid-response",
+  "description": "Example endpoint returns valid action payload.",
+  "type": "endpoint",
+  "request": {
+    "method": "GET",
+    "path": "/"
+  },
+  "expect": { "pass": true }
+}
