@@ -2,6 +2,21 @@
   "name": "@idoa/actionforge-validator",
   "version": "0.1.0",
   "description": "Strict validators and lints for Solana Actions/Blinks payloads",
+  "license": "MIT",
+  "author": "Milan Matejic",
+  "keywords": ["solana", "actions", "blinks", "validator", "web3", "solana-actions"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mateja3m/solana-actionforge"
+  },
+  "homepage": "https://github.com/Mateja3m/solana-actionforge/tree/main/packages/validator",
+  "bugs": {
+    "url": "https://github.com/Mateja3m/solana-actionforge/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": ["dist", "README.md", "LICENSE"],
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "bin": {
