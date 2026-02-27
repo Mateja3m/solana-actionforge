@@ -1,10 +1,19 @@
 {
   "name": "@idoa/actionforge-harness",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Conformance harness and fixture runner for Solana Actions/Blinks endpoints",
   "license": "MIT",
   "author": "Milan Matejic",
-  "keywords": ["solana", "actions", "blinks", "harness", "testing", "web3", "solana-actions", "conformance"],
+  "keywords": [
+    "solana",
+    "actions",
+    "blinks",
+    "harness",
+    "testing",
+    "web3",
+    "solana-actions",
+    "conformance"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/Mateja3m/solana-actionforge"
@@ -19,7 +28,13 @@
   "publishConfig": {
     "access": "public"
   },
-  "files": ["dist", "fixtures", "templates", "README.md", "LICENSE"],
+  "files": [
+    "dist",
+    "fixtures",
+    "templates",
+    "README.md",
+    "LICENSE"
+  ],
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "bin": {
