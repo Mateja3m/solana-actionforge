@@ -1,51 +1,8 @@
-# Dependencies
-node_modules/
-
-# Build output
-dist/
-build/
-out/
-*.js.map
-*.d.ts.map
-
-# TypeScript incremental build info
-*.tsbuildinfo
-
-# Test & coverage
-coverage/
-.nyc_output/
-
-# Logs
+node_modules
+dist
+coverage
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Temp files
 *.tmp
-*.swp
-*.swo
-
-# Environment variables
-.env
-.env.local
-.env.*.local
-
-# Editor / IDE
-.vscode/
-.idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-
-# OS
-.DS_Store
-Thumbs.db
 
 # Reports (generated at runtime)
-reports/
-
-reports/
-
 reports/
