@@ -1,4 +1,4 @@
-# chained-action-endpoint
+# Chained Action Endpoint
 
 Example Action endpoint that uses `@idoa/actionforge-chain` helpers for deterministic state transitions.
 

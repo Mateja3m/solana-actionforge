@@ -1,4 +1,4 @@
-# basic-action-endpoint
+# Basic Action Endpoint
 
 Minimal example endpoint returning a valid ActionForge response payload.
 

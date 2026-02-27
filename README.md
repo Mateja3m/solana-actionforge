@@ -48,8 +48,8 @@ npm run demo:test
 - `packages/validator` -> [`@idoa/actionforge-validator`](./packages/validator)
 - `packages/chain` -> [`@idoa/actionforge-chain`](./packages/chain)
 - `packages/harness` -> [`@idoa/actionforge-harness`](./packages/harness)
-- `examples/basic-action-endpoint`
-- `examples/chained-action-endpoint`
+- Basic Action Endpoint (`examples/basic-action-endpoint`)
+- Chained Action Endpoint (`examples/chained-action-endpoint`)
 - `docs/overview.md`
 - `docs/reproducible-demo.md`
 
