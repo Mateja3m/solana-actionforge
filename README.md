@@ -33,13 +33,13 @@ npm test
 
 Terminal 1:
 
-```bash
+```text
 npm run demo:server
 ```
 
 Terminal 2:
 
-```bash
+```text
 npm run demo:test
 ```
 
@@ -57,25 +57,25 @@ npm run demo:test
 
 1. Start example endpoint:
 
-```bash
+```text
 npm run demo:server
 ```
 
 2. Run validator:
 
-```bash
+```text
 npm exec -- actionforge-validator validate examples/basic-action-endpoint/valid-response.json
 ```
 
 3. Run harness:
 
-```bash
+```text
 npm run demo:test
 ```
 
 4. Show report output:
 
-```bash
+```text
 cat reports/actionforge-report.json
 ```
 
