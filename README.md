@@ -45,13 +45,13 @@ npm run demo:test
 
 ## Workspace layout
 
-- `packages/validator` -> [`@idoa/actionforge-validator`](./packages/validator)
-- `packages/chain` -> [`@idoa/actionforge-chain`](./packages/chain)
-- `packages/harness` -> [`@idoa/actionforge-harness`](./packages/harness)
+- `packages/validator` -> [`@idoa/actionforge-validator`](https://github.com/Mateja3m/solana-actionforge/tree/main/packages/validator)
+- `packages/chain` -> [`@idoa/actionforge-chain`](https://github.com/Mateja3m/solana-actionforge/tree/main/packages/chain)
+- `packages/harness` -> [`@idoa/actionforge-harness`](https://github.com/Mateja3m/solana-actionforge/tree/main/packages/harness)
 - Basic Action Endpoint (`examples/basic-action-endpoint`)
 - Chained Action Endpoint (`examples/chained-action-endpoint`)
-- `docs/overview.md`
-- `docs/reproducible-demo.md`
+- [`docs/overview.md`](https://github.com/Mateja3m/solana-actionforge/blob/main/docs/overview.md)
+- [`docs/reproducible-demo.md`](https://github.com/Mateja3m/solana-actionforge/blob/main/docs/reproducible-demo.md)
 
 ## Demo script
 
@@ -90,8 +90,8 @@ cat reports/actionforge-report.json
 - npm package: [@idoa/actionforge-validator](https://www.npmjs.com/package/@idoa/actionforge-validator)
 - npm package: [@idoa/actionforge-chain](https://www.npmjs.com/package/@idoa/actionforge-chain)
 - npm package: [@idoa/actionforge-harness](https://www.npmjs.com/package/@idoa/actionforge-harness)
-- reproducible local demo: [docs/reproducible-demo.md](/Users/milanmatejic/Desktop/personal/Projects/solana-actionforge/docs/reproducible-demo.md)
-- CI workflow template: [packages/harness/templates/ci-example.yml](/Users/milanmatejic/Desktop/personal/Projects/solana-actionforge/packages/harness/templates/ci-example.yml)
+- reproducible local demo: [docs/reproducible-demo.md](https://github.com/Mateja3m/solana-actionforge/blob/main/docs/reproducible-demo.md)
+- CI workflow template: [packages/harness/templates/ci-example.yml](https://github.com/Mateja3m/solana-actionforge/blob/main/packages/harness/templates/ci-example.yml)
 
 ## Versioning notes
 

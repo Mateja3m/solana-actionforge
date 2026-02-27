@@ -203,7 +203,7 @@ The package ships with **10 reference fixtures** covering:
 
 ## CI Integration
 
-A ready-to-use GitHub Actions workflow is bundled at [`templates/ci-example.yml`](./templates/ci-example.yml).
+A ready-to-use GitHub Actions workflow is bundled at [`templates/ci-example.yml`](https://github.com/Mateja3m/solana-actionforge/blob/main/packages/harness/templates/ci-example.yml).
 
 ```yaml
 - name: Run ActionForge harness
