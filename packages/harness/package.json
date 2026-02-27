@@ -1,6 +1,6 @@
 {
   "name": "@idoa/actionforge-harness",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Conformance harness and fixture runner for Solana Actions/Blinks endpoints",
   "license": "MIT",
   "author": "Milan Matejic",
@@ -45,7 +45,7 @@
     "test": "vitest run packages/harness/src"
   },
   "dependencies": {
-    "@idoa/actionforge-chain": "0.1.0",
-    "@idoa/actionforge-validator": "0.1.0"
+    "@idoa/actionforge-chain": "0.1.1",
+    "@idoa/actionforge-validator": "0.1.1"
   }
 }

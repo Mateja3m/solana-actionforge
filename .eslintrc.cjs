@@ -10,5 +10,11 @@ module.exports = {
   },
   extends: ['eslint:recommended'],
   ignorePatterns: ['dist', 'node_modules'],
+  overrides: [
+    {
+      files: ['**/*.ts'],
+      parser: '@typescript-eslint/parser',
+    },
+  ],
   rules: {},
 };

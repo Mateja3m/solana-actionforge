@@ -16,10 +16,11 @@
     "demo:test": "npm run build && npm exec -- actionforge-validator validate examples/basic-action-endpoint/valid-response.json && npm exec -- actionforge-harness run --endpoint http://127.0.0.1:3001 --fixtures packages/harness/fixtures --out reports/actionforge-report.json",
     "demo": "node -e \"console.log('Terminal 1: npm run demo:server\\nTerminal 2: npm run demo:test')\" && npm run demo:test",
     "test": "vitest run",
-    "lint": "eslint .",
+    "lint": "eslint --ext .js,.cjs,.ts .",
     "format": "prettier --write ."
   },
   "devDependencies": {
+    "@typescript-eslint/parser": "^8.25.0",
     "@types/node": "^20.17.0",
     "eslint": "^8.57.1",
     "prettier": "^3.4.2",
