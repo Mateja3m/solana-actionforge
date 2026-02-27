@@ -1,10 +1,18 @@
 {
   "name": "@idoa/actionforge-chain",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Safe-by-default state/chaining helpers for Solana Actions/Blinks",
   "license": "MIT",
   "author": "Milan Matejic",
-  "keywords": ["solana", "actions", "blinks", "chain", "web3", "solana-actions", "state-machine"],
+  "keywords": [
+    "solana",
+    "actions",
+    "blinks",
+    "chain",
+    "web3",
+    "solana-actions",
+    "state-machine"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/Mateja3m/solana-actionforge"
@@ -19,7 +27,11 @@
   "publishConfig": {
     "access": "public"
   },
-  "files": ["dist", "README.md", "LICENSE"],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
