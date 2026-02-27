@@ -4,6 +4,19 @@ ActionForge does NOT modify protocols/specs; it validates and tests conformance 
 
 ActionForge is an open-source monorepo toolkit for Solana Actions/Blinks with strict validation, safe chaining helpers, and a deterministic conformance harness.
 
+## Status
+
+- Published packages:
+  - [@idoa/actionforge-validator](https://www.npmjs.com/package/@idoa/actionforge-validator)
+  - [@idoa/actionforge-chain](https://www.npmjs.com/package/@idoa/actionforge-chain)
+  - [@idoa/actionforge-harness](https://www.npmjs.com/package/@idoa/actionforge-harness)
+- Current beta version: `0.1.1`
+- Node.js support: `>=18`
+- Implemented today:
+  - strict schema validation and linting CLI
+  - generic chaining/state helpers
+  - conformance harness, fixtures, and CI template
+
 ## Packages
 
 - `@idoa/actionforge-validator`: schema validation + linting + CLI
@@ -65,6 +78,20 @@ npm run demo:test
 ```bash
 cat reports/actionforge-report.json
 ```
+
+## Limitations
+
+- focused on deterministic validation, chaining helpers, and conformance testing
+- does not guarantee compatibility with every wallet or integration surface
+- chaining helpers are generic utilities, not a protocol or spec extension
+
+## Proof Of Use
+
+- npm package: [@idoa/actionforge-validator](https://www.npmjs.com/package/@idoa/actionforge-validator)
+- npm package: [@idoa/actionforge-chain](https://www.npmjs.com/package/@idoa/actionforge-chain)
+- npm package: [@idoa/actionforge-harness](https://www.npmjs.com/package/@idoa/actionforge-harness)
+- reproducible local demo: [docs/reproducible-demo.md](/Users/milanmatejic/Desktop/personal/Projects/solana-actionforge/docs/reproducible-demo.md)
+- CI workflow template: [packages/harness/templates/ci-example.yml](/Users/milanmatejic/Desktop/personal/Projects/solana-actionforge/packages/harness/templates/ci-example.yml)
 
 ## Versioning notes
 
