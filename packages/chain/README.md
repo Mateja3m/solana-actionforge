@@ -2,7 +2,7 @@
 
 **Safe-by-default state and chaining primitives for multi-step [Solana Actions/Blinks](https://solana.com/docs/advanced/actions) handlers.**
 
-Provides encode/decode, expiry enforcement, step counting, idempotency keys, and replay protection for stateful action chains. State is passed between steps as a compact base64url token — no database required.
+Provides encode/decode, expiry enforcement, step counting, idempotency keys, and replay protection for stateful action chains. State is passed between steps as a compact base64url token - no database required.
 
 > This package does **not** modify any Solana protocol or spec. It provides generic, framework-agnostic state safety helpers.
 
@@ -14,7 +14,7 @@ Provides encode/decode, expiry enforcement, step counting, idempotency keys, and
 npm install @idoa/actionforge-chain
 ```
 
-Requires **Node.js ≥ 18**.
+Requires **Node.js >= 18**.
 
 ---
 
@@ -41,12 +41,12 @@ import {
   nextStep,
 } from '@idoa/actionforge-chain';
 
-// Step 1 — create initial state (e.g. on first action request)
+// Step 1 - create initial state (e.g. on first action request)
 const initial = createChainState({ ttlMs: 5 * 60_000, maxSteps: 3 });
 const token = encodeState(initial);
 // Pass `token` to next step via href query param
 
-// Step 2 — receive state at next step
+// Step 2 - receive state at next step
 const state = decodeState(token);
 enforceExpiry(state);      // throws ChainError if expired
 enforceMaxSteps(state);    // throws ChainError if step limit reached
@@ -68,7 +68,7 @@ Creates a new chain state. Call this at the **start** of a multi-step flow.
 const state = createChainState({
   ttlMs: 300_000,      // TTL in milliseconds (default: 5 min)
   maxSteps: 5,          // Maximum allowed steps (default: 5)
-  idempotencyKey: '…',  // Optional — auto-generated UUID if omitted
+  idempotencyKey: '...',  // Optional - auto-generated UUID if omitted
   meta: { userId: 42 }, // Optional custom metadata
 });
 ```
@@ -143,8 +143,8 @@ Returns `true` if this key has been seen before (i.e. replay). Adds the key to `
 
 ```ts
 const seen = new Set<string>();
-isReplay(key, seen); // false — first time
-isReplay(key, seen); // true  — replay detected
+isReplay(key, seen); // false - first time
+isReplay(key, seen); // true  - replay detected
 ```
 
 ---
@@ -201,11 +201,11 @@ class ChainError extends Error {
 
 ## Related Packages
 
-- [`@idoa/actionforge-validator`](https://www.npmjs.com/package/@idoa/actionforge-validator) — Schema validation and linting
-- [`@idoa/actionforge-harness`](https://www.npmjs.com/package/@idoa/actionforge-harness) — Conformance harness CLI for endpoint testing
+- [`@idoa/actionforge-validator`](https://www.npmjs.com/package/@idoa/actionforge-validator) - Schema validation and linting
+- [`@idoa/actionforge-harness`](https://www.npmjs.com/package/@idoa/actionforge-harness) - Conformance harness CLI for endpoint testing
 
 ---
 
 ## License
 
-MIT © Milan Matejic
+MIT (c) Milan Matejic

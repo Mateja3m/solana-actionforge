@@ -14,7 +14,7 @@ Deterministically validates request and response objects against the Solana Acti
 npm install @idoa/actionforge-validator
 ```
 
-Requires **Node.js ≥ 18**.
+Requires **Node.js >= 18**.
 
 ---
 
@@ -157,11 +157,11 @@ Exit codes: `0` = pass, `1` = validation errors found.
 
 ## Related Packages
 
-- [`@idoa/actionforge-chain`](https://www.npmjs.com/package/@idoa/actionforge-chain) — Multi-step chaining state helpers
-- [`@idoa/actionforge-harness`](https://www.npmjs.com/package/@idoa/actionforge-harness) — Conformance harness CLI for endpoint testing
+- [`@idoa/actionforge-chain`](https://www.npmjs.com/package/@idoa/actionforge-chain) - Multi-step chaining state helpers
+- [`@idoa/actionforge-harness`](https://www.npmjs.com/package/@idoa/actionforge-harness) - Conformance harness CLI for endpoint testing
 
 ---
 
 ## License
 
-MIT © Milan Matejic
+MIT (c) Milan Matejic

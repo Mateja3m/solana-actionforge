@@ -16,7 +16,7 @@ npm install -g @idoa/actionforge-harness
 npm install --save-dev @idoa/actionforge-harness
 ```
 
-Requires **Node.js ≥ 18**.
+Requires **Node.js >= 18**.
 
 ---
 
@@ -62,7 +62,7 @@ Exit codes: `0` = all fixtures passed, `1` = one or more failures.
 
 Each fixture is a `.json` file in the fixtures directory. Fixtures are run in filename order.
 
-### `payload` — validate a static JSON payload
+### `payload` - validate a static JSON payload
 
 ```json
 {
@@ -86,7 +86,7 @@ Set `"mode": "lint"` to run `lintActionResponse` instead of `validateActionRespo
 
 ---
 
-### `endpoint` — call a live endpoint and validate its response
+### `endpoint` - call a live endpoint and validate its response
 
 ```json
 {
@@ -102,7 +102,7 @@ Supports `GET` and `POST`. For `POST`, include a `"body"` field.
 
 ---
 
-### `chain` — verify chain state encode/decode and policy enforcement
+### `chain` - verify chain state encode/decode and policy enforcement
 
 ```json
 {
@@ -121,7 +121,7 @@ Supports `GET` and `POST`. For `POST`, include a `"body"` field.
 
 ---
 
-### `replay` — verify idempotency replay detection
+### `replay` - verify idempotency replay detection
 
 ```json
 {
@@ -219,11 +219,11 @@ A ready-to-use GitHub Actions workflow is bundled at [`templates/ci-example.yml`
 
 ## Related Packages
 
-- [`@idoa/actionforge-validator`](https://www.npmjs.com/package/@idoa/actionforge-validator) — Schema validation and linting
-- [`@idoa/actionforge-chain`](https://www.npmjs.com/package/@idoa/actionforge-chain) — Multi-step chaining state helpers
+- [`@idoa/actionforge-validator`](https://www.npmjs.com/package/@idoa/actionforge-validator) - Schema validation and linting
+- [`@idoa/actionforge-chain`](https://www.npmjs.com/package/@idoa/actionforge-chain) - Multi-step chaining state helpers
 
 ---
 
 ## License
 
-MIT © Milan Matejic
+MIT (c) Milan Matejic

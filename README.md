@@ -1,4 +1,4 @@
-# ActionForge — Blinks & Actions Validation + Chaining Toolkit
+# ActionForge - Blinks & Actions Validation + Chaining Toolkit
 
 ActionForge does NOT modify protocols/specs; it validates and tests conformance to existing Actions/Blinks specifications.
 
