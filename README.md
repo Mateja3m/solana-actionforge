@@ -25,7 +25,7 @@ ActionForge is an open-source monorepo toolkit for Solana Actions/Blinks with st
 
 ## Quickstart
 
-```bash
+```text
 npm install
 npm run build
 npm test
