@@ -10,7 +10,7 @@ ActionForge is an open-source monorepo toolkit for Solana Actions/Blinks with st
   - [@idoa/actionforge-validator](https://www.npmjs.com/package/@idoa/actionforge-validator)
   - [@idoa/actionforge-chain](https://www.npmjs.com/package/@idoa/actionforge-chain)
   - [@idoa/actionforge-harness](https://www.npmjs.com/package/@idoa/actionforge-harness)
-- Current beta version: `0.1.1`
+- Current beta line: `0.1.x`
 - Node.js support: `>=18`
 - Implemented today:
   - strict schema validation and linting CLI

@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.2] - 2026-02-27
+
+### Changed
+
+- Updated `@idoa/actionforge-harness` to depend on `@idoa/actionforge-validator@0.1.1` and `@idoa/actionforge-chain@0.1.1`.
+- Added an automated endpoint smoke test covering the basic example endpoint startup path and endpoint fixture flow.
+- Enabled a working root lint workflow for repository-wide checks.
+
 ## [0.1.1] - 2026-02-27
 
 ### Added
