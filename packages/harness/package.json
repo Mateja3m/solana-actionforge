@@ -16,9 +16,12 @@
   "engines": {
     "node": ">=18"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "files": ["dist", "fixtures", "templates", "README.md", "LICENSE"],
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
   "bin": {
     "actionforge-harness": "dist/bin/actionforge-harness.js"
   },

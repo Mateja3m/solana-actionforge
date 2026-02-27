@@ -16,6 +16,9 @@
   "engines": {
     "node": ">=18"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "files": ["dist", "README.md", "LICENSE"],
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
